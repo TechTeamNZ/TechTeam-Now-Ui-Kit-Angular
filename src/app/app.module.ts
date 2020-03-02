@@ -23,6 +23,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { TreeComponent } from './tree/tree.component';
 import { MatTreeModule } from '@angular/material/tree';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,8 @@ import { MatTreeModule } from '@angular/material/tree';
     NavigationComponent,
     AddressFormComponent,
     TableComponent,
-    TreeComponent
+    TreeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +54,9 @@ import { MatTreeModule } from '@angular/material/tree';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatTreeModule
+    MatTreeModule,
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
