@@ -29,6 +29,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MatSliderModule } from '@angular/material/slider';
+import { SearchBoxComponent } from './search-box/search-box.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MatSliderModule } from '@angular/material/slider';
     TableComponent,
     TreeComponent,
     DashboardComponent,
-    DragDropComponent
+    DragDropComponent,
+    SearchBoxComponent
   ],
   imports: [
     BrowserModule,
