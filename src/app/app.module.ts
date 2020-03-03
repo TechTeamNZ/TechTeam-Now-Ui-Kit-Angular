@@ -28,6 +28,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     MatTreeModule,
     MatGridListModule,
     MatMenuModule,
-    DragDropModule
+    DragDropModule,
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
